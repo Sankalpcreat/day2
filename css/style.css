@@ -1,0 +1,59 @@
+body{
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #C17426;
+
+}
+img{
+   border:  10px solid green;
+   image-orientation: right;
+}
+blockquote{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    font-style: italic;
+    text-align: center;
+    color: #ffff;
+}
+
+
+cite{
+    font-size: 1rem;
+    font-weight: bold;
+}
+.bigbold{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+h2,h3{
+    font-style: unset;
+    color: blue;
+}
+
+
+h1{
+    border: 5px dotted red;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+a:link{
+    font-weight: bold;
+    text-decoration: none;
+    color: brown;
+}
+a:visited{
+   color: green;
+   font-weight: normal;
+}
+a:hover{
+    color: orange;
+    text-decoration: underline;
+    background-color: black;
+}
+a.harvard:link{
+    color: maroon;
+}
+p:hover{
+    background-color: black;
+    color: #ffff;
+}
